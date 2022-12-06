@@ -27,7 +27,7 @@ export class AuthService {
         }
       }
       throw error;
-    };
+    }
   }
   async signIn(dto: AuthDto) {
     // find the user by email
